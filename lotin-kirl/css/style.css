@@ -1,0 +1,29 @@
+body {
+    padding:0 5px; 
+    margin:0 10px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+    padding: 10px; 
+    font-size:20px; 
+    font-family:Arial; 
+    color:brown
+};
+a#btn_lotinga{ 
+    background-color:yellow
+}
+a#btn_lotinga, a#btn_kirilga{
+    font-family:arial; border:1px solid #ddd; border-radius:6px; display:inline-block; margin:3px; padding:4px; text-decoration:none
+}
+#blok_lotin {
+    display:none
+}
+textarea{
+    font-size:14pt; font-family:Arial; width: 700px;
+}
+#output{
+    font-size:14pt; font-family:Arial; width:700px; min-height:100px; border:1px solid grey; padding:5px;
+}
